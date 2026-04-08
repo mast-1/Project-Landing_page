@@ -103,3 +103,24 @@ header{
     margin: 25px;
     color: #5d636c;
 }
+/*TERCERA SECCION (quote)*/
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 190px;
+}
+
+.quote em{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.autor{
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 900;
+}
