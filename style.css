@@ -5,7 +5,7 @@
 }
 
 /*PRIMERA SECCION (Header, hero)*/
-.hero{
+.hero, .footer{
     background-color: #1F2937;
 }
 
@@ -37,9 +37,9 @@ header{
 
 .sign_up_btn{
     background-color: #3882F6;
-    border: none;
+    border: solid 2px #3882F6;
     padding: 7px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 18px;
     color: #F9FAF8;
     font-weight: 900;
@@ -123,4 +123,37 @@ header{
     align-self: flex-end;
     color: #1F2937;
     font-weight: 900;
+}
+/*CUARTA SECCION (call to action)*/
+.ctaction_section{
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px 100px;
+    color: #F9FAF8;
+    gap: 200px;
+}
+
+.ctaction_ttl{
+    font-weight: 900;
+}
+
+.ctaction_btn{
+    background-color: #3882F6;
+    border: solid 2px #F9FAF8;
+    padding: 7px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+/*FOOTER*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: #F9FAF8;
 }
